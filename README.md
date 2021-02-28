@@ -2,9 +2,9 @@
 
 docker compose set for laravel web serber
 
-app : php:7.4.15-fpm-buster
-apache :  nginx:1.18-alpine
-db : mysql:8.0
+ - aapp : php:7.4.15-fpm-buster
+ - apache :  nginx:1.18-alpine
+ - db : mysql:8.0
 
 ## set up
 
