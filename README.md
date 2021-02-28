@@ -1,6 +1,6 @@
-# docker_webserver_larabel
+# docker_webserver_laravel
 
-docker compose set for laravel web serber
+docker compose set for laravel web server
 
  - app : php:7.4.15-fpm-buster
  - apache :  nginx:1.18-alpine
