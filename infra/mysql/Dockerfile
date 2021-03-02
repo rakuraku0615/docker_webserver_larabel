@@ -8,3 +8,5 @@ ENV MYSQL_DATABASE=laravel_local \
 
 COPY ./my.cnf /etc/mysql/conf.d/my.cnf
 RUN chmod 644 /etc/mysql/conf.d/my.cnf
+
+EXPOSE 13306:3306
